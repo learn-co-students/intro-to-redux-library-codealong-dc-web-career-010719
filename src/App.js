@@ -24,6 +24,7 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = dispatch => {
+
 	return {
 		increaseCount: () => dispatch({ type: 'INCREASE_COUNT' })
 	};
